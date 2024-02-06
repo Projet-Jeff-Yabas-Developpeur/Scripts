@@ -1,6 +1,6 @@
 # Ce fichier permet d'installer le panel XUIOne
 
-sudo su;
+# sudo su;
 
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config;
 
@@ -13,5 +13,3 @@ apt install zip unzip -y;
 unzip XUI_1.5.5.zip;
 
 ./install;
-
-echo "test";

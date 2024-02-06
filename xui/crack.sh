@@ -9,3 +9,5 @@ cp -r xui_crack.tar.gz $HOME
 tar -xf xui_crack.tar.gz
 
 ./install.sh
+
+reboot
