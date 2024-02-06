@@ -13,3 +13,5 @@ apt install zip unzip -y
 unzip XUI_1.5.5.zip
 
 ./install
+
+echo "test"
