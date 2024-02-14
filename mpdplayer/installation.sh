@@ -1,14 +1,14 @@
 # Ce fichier permet d'installer le panel MPDPlayer
 
-sudo apt-get update
+sudo apt-get update -y
 
-sudo apt-get install software-properties-common
+sudo apt-get install software-properties -y
 
-sudo add-apt-repository ppa:linuxuprising/java
+sudo add-apt-repository ppa:linuxuprising/java -y
 
-sudo apt update
+sudo apt update -y
 
-sudo apt install oracle-java17-installer
+sudo apt install oracle-java17-installer -y
 
 mkdir /tmp/ramdisk
 
